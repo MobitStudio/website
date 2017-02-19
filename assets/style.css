@@ -1,4 +1,4 @@
-body {	color:#666;	font:300 15px/15px Roboto,Arial,Helvetica;background-color:#fff;-webkit-font-smoothing:antialiased;background-color: #eee;}
+body { position:relative;	color:#666;	font:300 15px/15px Roboto,Arial,Helvetica;background-color:#fff;-webkit-font-smoothing:antialiased;background-color: #eee;}
 
 a{color:#28a84f; text-decoration:none;}
 a:hover{color:#666;}
@@ -25,18 +25,32 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 .btn{border:none;border-radius: 0;padding: 0.75em 3em;text-transform: uppercase;}
 .btn-danger{background: rgb(40, 168, 79) !important;}
+.btn-danger:hover{background-color: #077c2b !important; 
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;}
+.btn-danger:active{background-color: #044c1a !important; }
 .btn:hover,.btn:active{color: #fff;box-shadow: none;}
 
 
 .navbar-nav > li > a{font-size: 1em;line-height:2em;}
 .navbar-inverse{background: #111;}
 .navbar-brand{color: #fff !important;background: #044c1a  !important;margin-left: 0 !important;height: 60px;padding: 1em;font:700 1.25em Raleway; }
+.navbar-brand:hover{transition: .5s;color: #fafafa !important; background:#056422 !important; }
 .navbar-default .navbar-nav>li>a{color: #000 !important;}
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{color: #fff !important;background-color: #044c1a ;}
 .navbar-nav.navbar-right:last-child{margin-right: 0 !important}
 .navbar-default{background:none;border:none; }
 .navbar-default .navbar-collapse{background:#fafafa; }
-
+.navbar-right li:hover{
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background:#d4d4d4;}
 
 .banner{background:url(../images/banner.jpg) #000;margin-top: 4em;background-size: cover;}
 .overlay{background:rgba(40, 168, 79, 0.9);}

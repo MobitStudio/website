@@ -1,6 +1,6 @@
  jQuery(document).ready(function($) {
  
-    $(".scroll a, .navbar-brand, .gototop").click(function(event){   
+    $(".scroll a, .navbar-brand, .gototop, .footerlinktop").click(function(event){   
     event.preventDefault();
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600,'swing');
     $(".scroll li").removeClass('active');
@@ -10,7 +10,7 @@
 
 
 
-
+$('body').scrollspy({ target: '#top-nav' });
 
 
 var wow = new WOW(
