@@ -8,8 +8,6 @@
     });
     });
 
-
-
 $('body').scrollspy({ target: '#top-nav' });
 
 
